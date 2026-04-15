@@ -6,7 +6,7 @@ export default function robots() {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/karta-sajta', '/politika-konfidencialnosti', '/_next/', '/api/'],
+        disallow: ['/_next/', '/api/'],
       },
     ],
     sitemap: `${BASE_URL}/sitemap.xml`,

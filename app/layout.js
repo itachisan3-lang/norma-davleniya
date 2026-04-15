@@ -22,6 +22,8 @@ export const metadata = {
     type: 'website', locale: 'ru_RU', siteName: 'НормаДавления',
     title: 'Норма давления по возрасту — таблица и калькулятор',
     description: 'Таблица норм АД по возрасту и полу. Калькулятор, расшифровка значений тонометра, нормы пульса.',
+    url: BASE_URL,
+    images: [{ url: `${BASE_URL}/og.svg`, width: 1200, height: 630, alt: 'Норма давления' }],
   },
   alternates: { canonical: BASE_URL },
 };
